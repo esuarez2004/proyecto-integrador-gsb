@@ -36,17 +36,6 @@ body{
     color: white;
     text-decoration: none;
 }
-.cajapadre{
-    display: flex;
-}
-.canciones{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-top: 30px;
-}
-
-
 .artista{
     display: flex;
     flex-direction: column;
@@ -56,10 +45,21 @@ body{
 .cajapadre2{
     display: flex;
 }
+
 .cajapadre3{
     display: flex;
 }
 .album{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.cajapadre1{
+    display: flex;
+}
+.cancion{
     display: flex;
     flex-direction: column;
     padding: 10px;
