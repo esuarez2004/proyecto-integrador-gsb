@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./index.html">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<section class="detalle-album">
+<h1>Detalle alb</h1>
+
+<article class="detallerauw">
+ <p> Rauw Alejandro-TOP 5</p>
+ <br>
+<p>Desesperados</p>
+<br>
+<p>Nostalgico</p>
+<br>
+<p>Todo de ti</p>
+<br>
+<p>Curame</p>
+<br>
+<p>Tiroteo-Remix</p>
+<br>
+<p>Mas acerca de Rauw <a href="https://www.youtube.com/channel/UC_Av98lDjf5KvFib5elhpYg">Rauw Alejandro Music</a></p>
+
+<article class="detallewos">
+    <p> Wos-TOP 5</p>
+    <br>
+   <p>Melon Vino</p>
+   <br>
+   <p>Mira Mama</p>
+   <br>
+   <p>Alma Dinamita</p>
+   <br>
+   <p>Sangria</p>
+   <br>
+   <p>Fresco</p>
+   <br>
+   <p>Mas acerca de Wos <a href="https://www.youtube.com/c/WOSDS3">Wos Music</a></p>
+
+   <article class="detallewos">
+    <p> Wos-TOP 5</p>
+    <br>
+   <p>Melon Vino</p>
+   <br>
+   <p>Mira Mama</p>
+   <br>
+   <p>Alma Dinamita</p>
+   <br>
+   <p>Sangria</p>
+   <br>
+   <p>Fresco</p>
+   <br>
+   <p>Mas acerca de Wos <a href="https://www.youtube.com/c/WOSDS3">Wos Music</a></p>
+   
+   <article class="detalletravis">
+    <p> Travis Scott-TOP 5</p>
+    <br>
+   <p>Goosebumps</p>
+   <br>
+   <p>Fair Trade</p>
+   <br>
+   <p>Butterfly Effect</p>
+   <br>
+   <p>Sicko Mode</p>
+   <br>
+   <p>Highest In The Room</p>
+   <br>
+   <p>Mas acerca de Travis <a href="https://www.youtube.com/channel/UCtxdfwb9wfkoGocVUAJ-Bmg">Travis Music</a></p>
+   
+   <article class="detallejustin">
+    <p> Justin Bieber-TOP 5</p>
+    <br>
+   <p>Sorry</p>
+   <br>
+   <p>Baby</p>
+   <br>
+   <p>What Do you Mean?</p>
+   <br>
+   <p>Love Yourself</p>
+   <br>
+   <p>Never Say Never</p>
+   <br>
+   <p>Mas acerca de Justin <a href="https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ">Justin Music</a></p>
+   
+   <article class="detallemello">
+    <p> Marshmello-TOP 5</p>
+    <br>
+   <p>Ritual</p>
+   <br>
+   <p>Alone</p>
+   <br>
+   <p>FinD Me</p>
+   <br>
+   <p>Keep It Mello</p>
+   <br>
+   <p>Alarm-Remix</p>
+   <br>
+   <p>Mas acerca de Marshmello <a href="https://www.youtube.com/channel/UCEdvpU2pFRCVqU6yIPyTpMQ">Marshemllo Music</a></p>
+   
+
+<article>
+</section>
+</article>
