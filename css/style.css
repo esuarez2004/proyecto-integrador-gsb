@@ -3,6 +3,10 @@ body{
     background-color: rgb(217, 217, 217);
 }
  
+/*BUSQUEDA*/
+
+
+
 /*MAIN*/
 
 .fotologo{
@@ -36,7 +40,7 @@ body{
     text-decoration: none;
 }
 .genero li a{
-    color: white;
+    color: rgb(209, 32, 32);
     text-decoration: none;
 }
 .artista{
@@ -100,3 +104,4 @@ text-decoration: none;
 .h3{ font-family: 'Montserrat', sans-serif;}
 .p{ font-family: 'Montserrat', sans-serif;}
 .h2{font-family: 'Montserrat', sans-serif;}
+.palbum{font-family: 'Montserrat', sans-serif;}
