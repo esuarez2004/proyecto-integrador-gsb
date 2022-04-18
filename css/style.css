@@ -85,6 +85,12 @@ body{
     margin-top: 30px;
 }
 
+.info{font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+
+}
 .h1{font-family: 'Montserrat', sans-serif;
 text-decoration: none;}
 .h1genero{ font-family: 'Montserrat', sans-serif;
@@ -107,8 +113,12 @@ text-decoration: none;}
 .ul{font-family: 'Montserrat', sans-serif;
     color: black;
     text-decoration: none;}
+.sectionalbum{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     box-sizing: border-box;}
+    
 
-    .sectionalbum{ display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        box-sizing: border-box;}
+ 
+
+    
