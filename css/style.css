@@ -172,3 +172,9 @@ text-decoration: none;}
         }
        
     }
+    .footer{
+        font-family: 'Montserrat', sans-serif;
+        justify-content: center;
+        display: flex;
+        
+    }
