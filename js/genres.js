@@ -8,9 +8,14 @@ return response.json();
 })
 .then(function(resOBJL){
 console.log(resOBJL.data)
-})
-.catch(function(errores){
-console.log(errores);
+let sectiongeneros = resOBJL.data;
 })
 
-
+for (let i=1;i<6;i++){
+    document.querySelector(".genero").innerHTML += 
+    '<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Pop</a>'
+    '<a href="./detalle--genero.html? id=${generos[i].id}" class= "generolink">Reggeaton</a>'
+    '<a href="./detalle--genero.htmlid=${generos[i].id" class= "generolink" >Electronica</a>'
+    '<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Trap</a>'
+'<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Hip Hop</a>'
+}
