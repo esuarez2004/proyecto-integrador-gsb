@@ -1,4 +1,4 @@
-let proxi = "https://developers.deezer.com/api/genre";
+let proxi  = "https://api.allorigins.win/raw?url";
 let endpoint = "https://api.deezer.com/genre";
 let url = proxi+endpoint
 
@@ -7,15 +7,36 @@ fetch(url)
 return response.json();
 })
 .then(function(resOBJL){
-console.log(resOBJL.data)
-let sectiongeneros = resOBJL.data;
+console.log(resOBJL.results);
+let sectiongeneros = resOBJL.results;
+
 })
 
-for (let i=1;i<6;i++){
-    document.querySelector(".genero").innerHTML += 
-    '<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Pop</a>'
-    '<a href="./detalle--genero.html? id=${generos[i].id}" class= "generolink">Reggeaton</a>'
-    '<a href="./detalle--genero.htmlid=${generos[i].id" class= "generolink" >Electronica</a>'
-    '<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Trap</a>'
-'<a href="./detalle--genero.htmlid=${generos[i].id"  class= "generolink">Hip Hop</a>'
+
+for (let i=0;i<6;i++){
+    document.querySelector("#genero").innerHTML += 
+   `<div class="genredtlle" >
+   <a href="./detalle--genero.html? id=${sectiongeneros[i].id}"></a>
+</div>
+<p>${sectiongeneros[i].id}</p>
+<h1>${sectiongeneros[i].name}</h1>
+<div>
+   <img src="${sectiongeneros[i].picture_medium}" alt="picture">
+</div>
+<p>${sectiongeneros[i].type}</p>
+<button>Ver mas</button`
 }
+
+let formulario = document.querySelector('form');
+
+formulario.addEventListener('submit', function(e){
+    e.preventDefault();
+let inputBusq = document.querySelector('input');
+
+if (inputBusq.value == '') {
+    alert('Ingresa una palabra')
+    
+} else {
+    this.submit()
+}
+});
