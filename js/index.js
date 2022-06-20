@@ -56,3 +56,6 @@ let url = proxi+endpoint
                                        
                                         
     })
+    .catch ( function (error){
+        console.log('el error fue' + error)
+    })
