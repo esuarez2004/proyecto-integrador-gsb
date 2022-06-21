@@ -149,6 +149,15 @@ text-decoration: none;}
     color: red;
 
 }
+.generojs{
+    flex-direction: row;
+}
+.detailjs{
+    flex-direction: row;
+
+}
+ 
+
 
     /*MOBILE*/
     @media screen and (max-width:(845px) {
