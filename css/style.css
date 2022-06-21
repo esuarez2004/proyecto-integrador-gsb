@@ -156,6 +156,12 @@ text-decoration: none;}
     flex-direction: row;
 
 }
+.footer{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    display: flex;
+    
+}
  
 
 
