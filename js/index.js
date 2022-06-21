@@ -1,32 +1,35 @@
-
-// declaro las variables con let  y operadores de asignancion//
+// java script es un lenjuage mas usado que tiene lgica interna, case senitive// vinculazion estrena script para biuena representasion den del dom, rep virtual del hml//
+// declaro las variables(var let const) (espacio de memoria que permite almacenar datos: distintos valores numbre cadena de texto buleanos) con let  y operadores de asignancion// proxi= intermediario// endpoint = ruta que asignara la informacion//
 let proxi = " https://cors-anywhere.herokuapp.com/";
-let endpoint = "https://developers.deezer.com/api/chart";
+let endpoint = "https://developers.deezer.com/api/chart/0";
+
 // operador de concatenacion//
 let url = proxi + endpoint
 // scoope global//
 
-//paramentro que sera la ruta// proporcionar ruta//
+// declaro el paramentro que sera la ruta// proporcionar ruta//
 fetch (url)
-    .then (function(response){
+    .then (function(response){   // recibe la funcion response y despues devuelce la respuesta en json//
+        console.log(response); // cllback response fc pasada como parametro en otra//
         return response.json();
     }) 
     .then (function(datos) {
-// convertir respuesta a un objeto literal//
+// convertir respuesta a un objeto literal// datos es el responde de el primer then//
         console.log(datos);
    
-        
+        // declaro variables // datos viene del then y -.data de la api//
         let canciones = datos.tracks.data;
         let albumes = datos.albums.data;
         let artistas = datos.artist.data;
     
-            // selector dom// lo declaramos para usarlo en otra parte// modificar contenido html//
+            // selector dom// lo declaramos para usarlo en otra parte// modificar contenido html// declaro variable con 
         let sectionCanciones = document.querySelector('.cajapadre1');
         let sectionAlbumes = document.querySelector('.cajapadre2');
         let sectionArtistas = document.querySelector('.cajapadre3')
 
-// += agregar contenido manteniendo el original// 
-// bucle// inicio, condicion de paso, modificador//
+// += agregar contenido manteniendo el original// recorren arrays de la api// 
+// bucle for // inicio, condicion de paso, modificador// llaves = codigo que queremos que se repita//
+// entre las llaves va lo quiero que se renderize// 
         for (let i = 0; 1 < 5; i++) {
             sectionCanciones.innerHTML += ` <article>
                                         <img src="${canciones[i].cover_small}
@@ -57,7 +60,7 @@ fetch (url)
                                         </article>
                                          `}
                                    
-    })
+    })    // template string viene con info de la api, cadena de texto que permite intercalar variables//
 .catch ( function (error){
     console.log('el error fue' + error)
 })
